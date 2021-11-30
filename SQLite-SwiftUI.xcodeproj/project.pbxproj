@@ -12,6 +12,10 @@
 		8B2C9BE22754B72B0009CED7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2C9BE12754B72B0009CED7 /* ContentView.swift */; };
 		8B2C9BE42754B72E0009CED7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2C9BE32754B72E0009CED7 /* Assets.xcassets */; };
 		8B2C9BE72754B72E0009CED7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2C9BE62754B72E0009CED7 /* Preview Assets.xcassets */; };
+		8BA363BB2754BDE800FCE0AC /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA363BA2754BDE800FCE0AC /* UserModel.swift */; };
+		8BA363BD2754BE4700FCE0AC /* DB_Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA363BC2754BE4700FCE0AC /* DB_Manager.swift */; };
+		8BA363BF2755BF7800FCE0AC /* AddUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA363BE2755BF7800FCE0AC /* AddUserView.swift */; };
+		8BA363C12755CD4000FCE0AC /* EditUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA363C02755CD4000FCE0AC /* EditUserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		8B2C9BE12754B72B0009CED7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8B2C9BE32754B72E0009CED7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B2C9BE62754B72E0009CED7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8BA363BA2754BDE800FCE0AC /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		8BA363BC2754BE4700FCE0AC /* DB_Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB_Manager.swift; sourceTree = "<group>"; };
+		8BA363BE2755BF7800FCE0AC /* AddUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserView.swift; sourceTree = "<group>"; };
+		8BA363C02755CD4000FCE0AC /* EditUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserView.swift; sourceTree = "<group>"; };
 		C0C437DE4D4D3D014CCC367A /* Pods-SQLite-SwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLite-SwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-SQLite-SwiftUI/Pods-SQLite-SwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -51,7 +59,6 @@
 				C0C437DE4D4D3D014CCC367A /* Pods-SQLite-SwiftUI.debug.xcconfig */,
 				4C29B7D58E910FD79F68EB8B /* Pods-SQLite-SwiftUI.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -80,6 +87,10 @@
 				8B2C9BE12754B72B0009CED7 /* ContentView.swift */,
 				8B2C9BE32754B72E0009CED7 /* Assets.xcassets */,
 				8B2C9BE52754B72E0009CED7 /* Preview Content */,
+				8BA363BA2754BDE800FCE0AC /* UserModel.swift */,
+				8BA363BC2754BE4700FCE0AC /* DB_Manager.swift */,
+				8BA363BE2755BF7800FCE0AC /* AddUserView.swift */,
+				8BA363C02755CD4000FCE0AC /* EditUserView.swift */,
 			);
 			path = "SQLite-SwiftUI";
 			sourceTree = "<group>";
@@ -207,7 +218,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B2C9BE22754B72B0009CED7 /* ContentView.swift in Sources */,
+				8BA363BB2754BDE800FCE0AC /* UserModel.swift in Sources */,
+				8BA363BF2755BF7800FCE0AC /* AddUserView.swift in Sources */,
+				8BA363C12755CD4000FCE0AC /* EditUserView.swift in Sources */,
 				8B2C9BE02754B72B0009CED7 /* SQLite_SwiftUIApp.swift in Sources */,
+				8BA363BD2754BE4700FCE0AC /* DB_Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
